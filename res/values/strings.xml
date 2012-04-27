@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, USPMobToolsActivity!</string>
+    <string name="app_name">USPMobTools</string>
+
+    <!-- JanusMob -->
+    <string name="janusmob_appname">JanusMob</string>
+    <string name="janusmob_main_usuario">NUSP</string>
+    <string name="janusmob_main_senha">Senha</string>
+    <string name="janusmob_main_lembrar_senha">Lembrar senha</string>
+    <string name="janusmob_main_login">Entrar</string>
+    <string name="janusmob_main_esqueceu_senha">Esqueci a senha</string>
+    <string name="janusmob_main_primeiro_acesso">Primeiro acesso</string>
+    
+    <string name="janusmob_dados_numerousp">Número USP</string>
+    <string name="janusmob_dados_nome">Aluno</string>
+    <string name="janusmob_dados_email">E-mail</string>
+    <string name="janusmob_dados_bolsas_titulo">Bolsas</string>
+    <string name="janusmob_dados_bolsa_agencia">Agência</string>
+    <string name="janusmob_dados_bolsa_programa">Programa</string>
+    <string name="janusmob_dados_bolsa_processo">Processo</string>
+    <string name="janusmob_dados_bolsa_inicio">Início</string>
+    <string name="janusmob_dados_bolsa_fim">Fim</string>
+
+    <string name="janusmob_dados_curso">Curso</string>
+    <string name="janusmob_dados_programa">Programa</string>
+    <string name="janusmob_dados_data_matricula">Data de matrícula</string>
+    <string name="janusmob_dados_data_limite">Data limite</string>
+    <string name="janusmob_dados_orientador_academico">Orientador acadêmico</string>
+    <string name="janusmob_dados_orientador">Orientador</string>
+    <string name="janusmob_dados_proficiencia">Proficiência em línguas</string>
+    <string name="janusmob_dados_historico">Histórico de ocorrências</string>
+
+    <string name="janusmob_dados_prazo_inscricao_qualificacao">Prazo para inscrição no Exame de Qualificação</string>
+    <string name="janusmob_dados_data_aprovacao_qualificacao">Data de aprovação no Exame de Qualificação</string>
+    <string name="janusmob_dados_data_deposito_trabalho">Data de depósito do trabalho</string>
+    <string name="janusmob_dados_titulo_do_trabalho">Título do trabalho</string>
+    <string name="janusmob_dados_data_maxima_aprovacao_banca">Data máxima para aprovação da Banca</string>
+    <string name="janusmob_dados_data_aprovacao_banca">Data de aprovação da banca</string>
+    <string name="janusmob_dados_data_maxima_defesa">Data máxima para defesa</string>
+    <string name="janusmob_dados_data_defesa">Data da defesa</string>
+    <string name="janusmob_dados_resultado_defesa">Resultado da defesa</string>
+    
+    
+    <!-- USPMap -->
+    <string name="uspmap_app_name">USPMap</string>
+    <string name="latitude_inital">-23.559424</string>
+    <string name="longitude_initial">-46.73201</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="janusmob_dados_numerousp_padrao">7896213</string>
+    <string name="janusmob_dados_nome_padrao">Cássio Alexandre Paixão Silva Alkmin</string>
+    <string name="janusmob_dados_email_padrao">cassiop@ime.usp.br</string>
+    <string name="janusmob_dados_bolsa_agencia_padrao">CAPES</string>
+    <string name="janusmob_dados_bolsa_programa_padrao">Cota Institucional</string>
+    <string name="janusmob_dados_bolsa_processo_padrao">779898</string>
+    <string name="janusmob_dados_bolsa_inicio_padrao">18/02/2011</string>
+    <string name="janusmob_dados_bolsa_fim_padrao">17/02/2013</string>
+
+</resources>
