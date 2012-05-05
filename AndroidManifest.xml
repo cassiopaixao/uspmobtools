@@ -8,7 +8,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="sandroid.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -22,17 +23,49 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- USPMap -->
         <activity
             android:name=".uspmap.USPMapActivity"
             android:label="@string/uspmap_app_name" >
         </activity>
+        <!-- JanusMob -->
         <activity
             android:name=".janusmob.JanusMobActivity"
-            android:label="@string/janusmob_appname" >
+            android:label="@string/janusmob_app_name" >
         </activity>
         <activity
             android:name=".janusmob.DadosAlunoActivity"
-            android:label="@string/janusmob_appname" >
+            android:label="@string/janusmob_app_name" >
+        </activity>
+        <activity
+            android:name=".janusmob.ExibeJanusActivity"
+            android:label="@string/janusmob_app_name" >
+        </activity>
+        <activity
+            android:name=".rucard.ExibeExtratoActivity"
+            android:label="@string/janusmob_app_name" >
+        </activity>
+        <!-- RUCard -->
+        <activity
+            android:name=".rucard.ExibeSaldoActivity"
+            android:label="@string/janusmob_app_name" >
+        </activity>
+        <activity
+            android:name=".rucard.RuCardActivity"
+            android:label="@string/janusmob_app_name" >
+        </activity>
+        <!-- Bandeco -->
+        <activity
+            android:name=".bandeco.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".bandeco.AppBandecoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".bandeco.CardapioCentralActivity"
+            android:label="@string/app_name" >
         </activity>
 
         <uses-library android:name="com.google.android.maps" />

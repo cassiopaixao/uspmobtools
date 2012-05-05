@@ -5,14 +5,13 @@
     <string name="app_name">USPMobTools</string>
 
     <!-- JanusMob -->
-    <string name="janusmob_appname">JanusMob</string>
+    <string name="janusmob_app_name">JanusMob</string>
     <string name="janusmob_main_usuario">NUSP</string>
     <string name="janusmob_main_senha">Senha</string>
     <string name="janusmob_main_lembrar_senha">Lembrar senha</string>
     <string name="janusmob_main_login">Entrar</string>
     <string name="janusmob_main_esqueceu_senha">Esqueci a senha</string>
     <string name="janusmob_main_primeiro_acesso">Primeiro acesso</string>
-    
     <string name="janusmob_dados_numerousp">Número USP</string>
     <string name="janusmob_dados_nome">Aluno</string>
     <string name="janusmob_dados_email">E-mail</string>
@@ -22,7 +21,6 @@
     <string name="janusmob_dados_bolsa_processo">Processo</string>
     <string name="janusmob_dados_bolsa_inicio">Início</string>
     <string name="janusmob_dados_bolsa_fim">Fim</string>
-
     <string name="janusmob_dados_curso">Curso</string>
     <string name="janusmob_dados_programa">Programa</string>
     <string name="janusmob_dados_data_matricula">Data de matrícula</string>
@@ -31,7 +29,6 @@
     <string name="janusmob_dados_orientador">Orientador</string>
     <string name="janusmob_dados_proficiencia">Proficiência em línguas</string>
     <string name="janusmob_dados_historico">Histórico de ocorrências</string>
-
     <string name="janusmob_dados_prazo_inscricao_qualificacao">Prazo para inscrição no Exame de Qualificação</string>
     <string name="janusmob_dados_data_aprovacao_qualificacao">Data de aprovação no Exame de Qualificação</string>
     <string name="janusmob_dados_data_deposito_trabalho">Data de depósito do trabalho</string>
@@ -41,11 +38,53 @@
     <string name="janusmob_dados_data_maxima_defesa">Data máxima para defesa</string>
     <string name="janusmob_dados_data_defesa">Data da defesa</string>
     <string name="janusmob_dados_resultado_defesa">Resultado da defesa</string>
-    
-    
+
+    <!-- RUCard -->
+    <string name="rucard_app_name">RUCard</string>
+    <string name="rucard_nusp">NUSP</string>
+    <string name="rucard_senha">Senha</string>
+    <string name="rucard_lembrar_senha">Lembrar senha</string>
+    <string name="rucard_login">Entrar</string>
+    <string name="rucard_usuario">Nome</string>
+    <string name="rucard_saldo">Saldo</string>
+    <string name="rucard_extrato">Extrato</string>
+    <string name="rucard_visualizar_extrato">Visualizar extrato</string>
+    <string name="rucard_form_nusp">codpes</string>
+    <string name="rucard_form_senha">senusu</string>
+
     <!-- USPMap -->
     <string name="uspmap_app_name">USPMap</string>
     <string name="latitude_inital">-23.559424</string>
     <string name="longitude_initial">-46.73201</string>
+
+    <!-- Bandeco -->
+    <string name="bandeco_app_name">AppBandeco</string>
+    <string name="introWelcome">Bem-vind@ ao AppBandeco!
+        \n\nAplicativo para bandejão Desenvolvido durante o
+        curso de computação móvel
+        \n\nVersão 0.02</string>
+    <string name="IntroWarning">        O dados retirados do site
+        \n\nhttp://www.usp.br/coseas/</string>
+    <string name="introContinue">Continuar</string>
+    <string name="introEncerrar">Sair</string>
+    <string name="introStatus">Status Internet: </string>
+    <string name="introStatusNetOn">Online</string>
+    <string name="introStatusNetOff">Offline</string>
+    <string name="introWarningNetOff">Verifique sua internet, pois dados podem ficar inconsistentes!</string>
+    <string name="introCoseas">Coordenadoria de Assistência Social</string>
+    <string name="mainTitleLeft">Restaurante</string>
+    <string name="mainTitleRight">Fila</string>
+    <string name="mainCentral">Bandeijão Central</string>
+    <string name="mainPco">Bandeijão Prefeitura</string>
+    <string name="mainQuimica">Bandeijão da química</string>
+    <string name="mainFisica">Bandeijão da física</string>
+    <string name="mainNear">Bandejão mais próximo:</string>
+    <string name="mainEncerrar">Sair</string>
+    <string name="mainInstruction">	    Escolha o bandejão que você deseja obter mais informações. </string>
+    <string name="mainRefresh">Atualizar</string>
+    <string name="mainSearch">Sem dados de localização</string>
+
+    <!-- Exceções -->
+    <string name="excecao_pagina_invalida">Falha ao conectar à página do serviço.</string>
 
 </resources>

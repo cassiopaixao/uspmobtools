@@ -11,88 +11,187 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int foto_aluno=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int coseas=0x7f020000;
+        public static final int foto_aluno=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f050000;
-        public static final int TableLayout=0x7f050006;
-        public static final int button_janusmob=0x7f050011;
-        public static final int janusmob_button_entrar=0x7f050010;
-        public static final int janusmob_dados_email=0x7f050004;
-        public static final int janusmob_dados_foto_aluno=0x7f050001;
-        public static final int janusmob_dados_nome=0x7f050003;
-        public static final int janusmob_dados_numerousp=0x7f050002;
-        public static final int janusmob_field_lembrar_senha=0x7f05000e;
-        public static final int janusmob_field_senha=0x7f05000c;
-        public static final int janusmob_field_usuario=0x7f05000a;
-        public static final int mapView=0x7f050012;
-        public static final int tableRow1=0x7f050009;
-        public static final int tableRow2=0x7f05000b;
-        public static final int tableRow3=0x7f05000d;
-        public static final int tableRow4=0x7f05000f;
-        public static final int tableRow5=0x7f050007;
-        public static final int textView1=0x7f050008;
-        public static final int textView2=0x7f050005;
+        public static final int LinearLayout1=0x7f05000e;
+        public static final int TableLayout=0x7f050019;
+        public static final int button_bandeco=0x7f050026;
+        public static final int button_janusmob=0x7f050023;
+        public static final int button_rucard=0x7f050024;
+        public static final int button_uspmap=0x7f050025;
+        public static final int cardapioDate=0x7f050001;
+        public static final int cardapioPratos=0x7f050002;
+        public static final int cardapioTitle=0x7f050000;
+        public static final int content=0x7f050014;
+        public static final int handle=0x7f050015;
+        public static final int infoTxtCredits=0x7f050003;
+        public static final int introButtonContinue=0x7f050006;
+        public static final int introButtonEncerrar=0x7f050007;
+        public static final int introStatus=0x7f050004;
+        public static final int introWarningNetoff=0x7f050005;
+        public static final int janusmob_button_entrar=0x7f050022;
+        public static final int janusmob_dados_email=0x7f050012;
+        public static final int janusmob_dados_foto_aluno=0x7f05000f;
+        public static final int janusmob_dados_nome=0x7f050011;
+        public static final int janusmob_dados_numerousp=0x7f050010;
+        public static final int janusmob_field_lembrar_senha=0x7f050020;
+        public static final int janusmob_field_senha=0x7f05001e;
+        public static final int janusmob_field_usuario=0x7f05001c;
+        public static final int janusmob_webview=0x7f050017;
+        public static final int mainCentral=0x7f050008;
+        public static final int mainEncerrar=0x7f05000d;
+        public static final int mainFisica=0x7f05000a;
+        public static final int mainNear=0x7f05000c;
+        public static final int mainPco=0x7f050009;
+        public static final int mainQuimica=0x7f05000b;
+        public static final int mapView=0x7f050030;
+        public static final int rucard_button_entrar=0x7f05002e;
+        public static final int rucard_button_visualizar_extrato=0x7f05002a;
+        public static final int rucard_field_lembrar_senha=0x7f05002d;
+        public static final int rucard_field_senha=0x7f05002c;
+        public static final int rucard_field_usuario=0x7f05002b;
+        public static final int rucard_nome_usuario=0x7f050028;
+        public static final int rucard_nusp=0x7f050027;
+        public static final int rucard_saldo=0x7f050029;
+        public static final int rucard_webview=0x7f05002f;
+        public static final int slidingDrawer1=0x7f050013;
+        public static final int tableRow1=0x7f05001b;
+        public static final int tableRow2=0x7f05001d;
+        public static final int tableRow3=0x7f05001f;
+        public static final int tableRow4=0x7f050021;
+        public static final int tableRow5=0x7f05001a;
+        public static final int textView1=0x7f050016;
+        public static final int textView2=0x7f050018;
     }
     public static final class layout {
-        public static final int janusmob_dados_aluno=0x7f030000;
-        public static final int janusmob_ficha_curso=0x7f030001;
-        public static final int janusmob_main=0x7f030002;
-        public static final int main=0x7f030003;
-        public static final int uspmap_main=0x7f030004;
+        public static final int bandeco_cardapio=0x7f030000;
+        public static final int bandeco_intro=0x7f030001;
+        public static final int bandeco_main=0x7f030002;
+        public static final int janusmob_dados_aluno=0x7f030003;
+        public static final int janusmob_exibe_janus=0x7f030004;
+        public static final int janusmob_ficha_curso=0x7f030005;
+        public static final int janusmob_main=0x7f030006;
+        public static final int main=0x7f030007;
+        public static final int rucard_extrato=0x7f030008;
+        public static final int rucard_main=0x7f030009;
+        public static final int rucard_saldo=0x7f03000a;
+        public static final int uspmap_main=0x7f03000b;
     }
     public static final class string {
-        public static final int app_name=0x7f04000a;
-        public static final int hello=0x7f040009;
+        public static final int IntroWarning=0x7f04004c;
+        public static final int app_name=0x7f04001a;
+        /**  Bandeco 
+         */
+        public static final int bandeco_app_name=0x7f04004a;
+        /**  Exceções 
+         */
+        public static final int excecao_pagina_invalida=0x7f04005f;
+        public static final int hello=0x7f040019;
+        public static final int introContinue=0x7f04004d;
+        public static final int introCoseas=0x7f040053;
+        public static final int introEncerrar=0x7f04004e;
+        public static final int introStatus=0x7f04004f;
+        public static final int introStatusNetOff=0x7f040051;
+        public static final int introStatusNetOn=0x7f040050;
+        public static final int introWarningNetOff=0x7f040052;
+        public static final int introWelcome=0x7f04004b;
         /**  JanusMob 
          */
-        public static final int janusmob_appname=0x7f04000b;
-        public static final int janusmob_dados_bolsa_agencia=0x7f040016;
+        public static final int janusmob_app_name=0x7f04001b;
+        public static final int janusmob_campo_jsf_state_64=0x7f040013;
+        public static final int janusmob_campo_jsf_tree_64=0x7f040012;
+        public static final int janusmob_campo_jsf_viewid=0x7f040014;
+        public static final int janusmob_campo_link_hidden=0x7f040011;
+        public static final int janusmob_campo_login=0x7f04000f;
+        public static final int janusmob_campo_senha=0x7f04000e;
+        public static final int janusmob_campo_submit=0x7f040010;
+        public static final int janusmob_campo_usuario=0x7f04000d;
+        public static final int janusmob_dados_bolsa_agencia=0x7f040026;
         public static final int janusmob_dados_bolsa_agencia_padrao=0x7f040003;
-        public static final int janusmob_dados_bolsa_fim=0x7f04001a;
+        public static final int janusmob_dados_bolsa_fim=0x7f04002a;
         public static final int janusmob_dados_bolsa_fim_padrao=0x7f040007;
-        public static final int janusmob_dados_bolsa_inicio=0x7f040019;
+        public static final int janusmob_dados_bolsa_inicio=0x7f040029;
         public static final int janusmob_dados_bolsa_inicio_padrao=0x7f040006;
-        public static final int janusmob_dados_bolsa_processo=0x7f040018;
+        public static final int janusmob_dados_bolsa_processo=0x7f040028;
         public static final int janusmob_dados_bolsa_processo_padrao=0x7f040005;
-        public static final int janusmob_dados_bolsa_programa=0x7f040017;
+        public static final int janusmob_dados_bolsa_programa=0x7f040027;
         public static final int janusmob_dados_bolsa_programa_padrao=0x7f040004;
-        public static final int janusmob_dados_bolsas_titulo=0x7f040015;
-        public static final int janusmob_dados_curso=0x7f04001b;
-        public static final int janusmob_dados_data_aprovacao_banca=0x7f040028;
-        public static final int janusmob_dados_data_aprovacao_qualificacao=0x7f040024;
-        public static final int janusmob_dados_data_defesa=0x7f04002a;
-        public static final int janusmob_dados_data_deposito_trabalho=0x7f040025;
-        public static final int janusmob_dados_data_limite=0x7f04001e;
-        public static final int janusmob_dados_data_matricula=0x7f04001d;
-        public static final int janusmob_dados_data_maxima_aprovacao_banca=0x7f040027;
-        public static final int janusmob_dados_data_maxima_defesa=0x7f040029;
-        public static final int janusmob_dados_email=0x7f040014;
+        public static final int janusmob_dados_bolsas_titulo=0x7f040025;
+        public static final int janusmob_dados_curso=0x7f04002b;
+        public static final int janusmob_dados_data_aprovacao_banca=0x7f040038;
+        public static final int janusmob_dados_data_aprovacao_qualificacao=0x7f040034;
+        public static final int janusmob_dados_data_defesa=0x7f04003a;
+        public static final int janusmob_dados_data_deposito_trabalho=0x7f040035;
+        public static final int janusmob_dados_data_limite=0x7f04002e;
+        public static final int janusmob_dados_data_matricula=0x7f04002d;
+        public static final int janusmob_dados_data_maxima_aprovacao_banca=0x7f040037;
+        public static final int janusmob_dados_data_maxima_defesa=0x7f040039;
+        public static final int janusmob_dados_email=0x7f040024;
         public static final int janusmob_dados_email_padrao=0x7f040002;
-        public static final int janusmob_dados_historico=0x7f040022;
-        public static final int janusmob_dados_nome=0x7f040013;
+        public static final int janusmob_dados_historico=0x7f040032;
+        public static final int janusmob_dados_nome=0x7f040023;
         public static final int janusmob_dados_nome_padrao=0x7f040001;
-        public static final int janusmob_dados_numerousp=0x7f040012;
+        public static final int janusmob_dados_numerousp=0x7f040022;
         public static final int janusmob_dados_numerousp_padrao=0x7f040000;
-        public static final int janusmob_dados_orientador=0x7f040020;
-        public static final int janusmob_dados_orientador_academico=0x7f04001f;
-        public static final int janusmob_dados_prazo_inscricao_qualificacao=0x7f040023;
-        public static final int janusmob_dados_proficiencia=0x7f040021;
-        public static final int janusmob_dados_programa=0x7f04001c;
-        public static final int janusmob_dados_resultado_defesa=0x7f04002b;
-        public static final int janusmob_dados_titulo_do_trabalho=0x7f040026;
-        public static final int janusmob_main_esqueceu_senha=0x7f040010;
-        public static final int janusmob_main_lembrar_senha=0x7f04000e;
-        public static final int janusmob_main_login=0x7f04000f;
-        public static final int janusmob_main_primeiro_acesso=0x7f040011;
-        public static final int janusmob_main_senha=0x7f04000d;
-        public static final int janusmob_main_usuario=0x7f04000c;
+        public static final int janusmob_dados_orientador=0x7f040030;
+        public static final int janusmob_dados_orientador_academico=0x7f04002f;
+        public static final int janusmob_dados_prazo_inscricao_qualificacao=0x7f040033;
+        public static final int janusmob_dados_proficiencia=0x7f040031;
+        public static final int janusmob_dados_programa=0x7f04002c;
+        public static final int janusmob_dados_resultado_defesa=0x7f04003b;
+        public static final int janusmob_dados_titulo_do_trabalho=0x7f040036;
+        /**  formulario login 
+         */
+        public static final int janusmob_formulario=0x7f04000c;
+        public static final int janusmob_main_esqueceu_senha=0x7f040020;
+        public static final int janusmob_main_lembrar_senha=0x7f04001e;
+        public static final int janusmob_main_login=0x7f04001f;
+        public static final int janusmob_main_primeiro_acesso=0x7f040021;
+        public static final int janusmob_main_senha=0x7f04001d;
+        public static final int janusmob_main_usuario=0x7f04001c;
+        public static final int janusmob_pagina_dados_pessoais=0x7f04000a;
+        public static final int janusmob_pagina_ficha_aluno=0x7f04000b;
+        /**  paginas a acessar 
+         */
         public static final int janusmob_pagina_inicial=0x7f040008;
-        public static final int latitude_inital=0x7f04002d;
-        public static final int longitude_initial=0x7f04002e;
+        public static final int janusmob_pagina_login=0x7f040009;
+        public static final int latitude_inital=0x7f040048;
+        public static final int longitude_initial=0x7f040049;
+        public static final int mainCentral=0x7f040056;
+        public static final int mainEncerrar=0x7f04005b;
+        public static final int mainFisica=0x7f040059;
+        public static final int mainInstruction=0x7f04005c;
+        public static final int mainNear=0x7f04005a;
+        public static final int mainPco=0x7f040057;
+        public static final int mainQuimica=0x7f040058;
+        public static final int mainRefresh=0x7f04005d;
+        public static final int mainSearch=0x7f04005e;
+        public static final int mainTitleLeft=0x7f040054;
+        public static final int mainTitleRight=0x7f040055;
+        /**  RUCard 
+         */
+        public static final int rucard_app_name=0x7f04003c;
+        public static final int rucard_extrato=0x7f040043;
+        public static final int rucard_form_nusp=0x7f040045;
+        public static final int rucard_form_senha=0x7f040046;
+        public static final int rucard_formulario=0x7f040018;
+        public static final int rucard_lembrar_senha=0x7f04003f;
+        public static final int rucard_login=0x7f040040;
+        public static final int rucard_nusp=0x7f04003d;
+        public static final int rucard_pagina_autenticacao=0x7f040016;
+        public static final int rucard_pagina_extrato=0x7f040017;
+        /**  RUCard 
+         */
+        public static final int rucard_pagina_login=0x7f040015;
+        public static final int rucard_saldo=0x7f040042;
+        public static final int rucard_senha=0x7f04003e;
+        public static final int rucard_usuario=0x7f040041;
+        public static final int rucard_visualizar_extrato=0x7f040044;
         /**  USPMap 
          */
-        public static final int uspmap_app_name=0x7f04002c;
+        public static final int uspmap_app_name=0x7f040047;
     }
 }

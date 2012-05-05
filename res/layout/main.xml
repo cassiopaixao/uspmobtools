@@ -4,15 +4,34 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_weight="1" >
 
-    <Button
-        android:id="@+id/button_janusmob"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/janusmob_appname" />
+        <Button
+            android:id="@+id/button_janusmob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/janusmob_app_name" />
+
+        <Button
+            android:id="@+id/button_rucard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rucard_app_name" />
+
+        <Button
+            android:id="@+id/button_uspmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uspmap_app_name" />
+
+        <Button
+            android:id="@+id/button_bandeco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bandeco_app_name" />
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
 
 </LinearLayout>

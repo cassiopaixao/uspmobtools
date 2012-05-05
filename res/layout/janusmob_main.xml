@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="@string/janusmob_appname"
+            android:text="@string/janusmob_app_name"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </TableRow>
 
